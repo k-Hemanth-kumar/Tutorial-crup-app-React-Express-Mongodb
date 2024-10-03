@@ -8,7 +8,7 @@ const corsOptions={
     origin:"http://localhost:5001/"
 }
 app.use(cors(corsOptions));
-const config=require('./backend/config');
+const config=require('./config');
 console.log(config)
 mongoose.connect(`mongodb://${config.HOST}`)
 
