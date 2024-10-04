@@ -1,0 +1,28 @@
+.signupContainer{
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #eff1f3;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.App{
+  height: 100vh;
+  width: 100vw;
+}
+.signup{
+  width: 100%;
+}
+body{
+  background-color: #f5f8fb;
+}
+@media only screen and (min-width:768px) {
+  .signupContainer{
+    max-width: 500px;
+
+  }
+}
+*:focus{
+  box-shadow: none !important;
+}
